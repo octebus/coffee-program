@@ -47,7 +47,7 @@ input_check() # This calls the function to be used'''
 # V1.3 Valid input checker
 # Use parameters in the function
 # More Pythonic
-def input_check(question): # 'question' is a placeholder
+'''def input_check(question): # 'question' is a placeholder
     while True:
         error = "That is not a valid number."
         print(question)
@@ -69,12 +69,12 @@ num2 = input_check("Please enter the second number: ")
 print(f"The second number you stored is {num2}")
 
 sum = num1 + num2
-print(f"Your numbers added together result in {sum}. ")
+print(f"Your numbers added together result in {sum}. ")'''
 
 # V1.4. Checking for a valid input using try/except method
 # Using parameters (placeholders) to help make the code more pythonic
 # Function
-'''def valid_num(question, low, high):
+def valid_num(question, low, high):
     error = f"Whoops, that is not an integer between {low} and {high}."
     while True:
         try:
@@ -109,4 +109,4 @@ if __name__ =="__main__":
 
     # Adding the numbers
     sum = num1 + num2 + num3
-    print(f"Your three numbers added together result in {sum}.")'''
+    print(f"Your three numbers added together result in {sum}.")
